@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1q6pG1tX1DxS97a9J-t1XihgHtTvs-g8B">
+	<name>Chegando em Nova Olinda do Norte faça-noss uma visita</name>
+	<description>Fazemos as reportagens de primeira para voc~e ficar atualizado de tudo o que accontece em nossa cidade.</description>
+	<StyleMap id="__managed_style_41F290424A2EFA7B0920">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_5CFD4843402EFA7B0920</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_04A2404CE72EFA7B0921</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_055541742E2EFA7B0923">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<div>è só subir a ladeira e chegou</div>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_2BF50E0A012EFA7B0922">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_33EC5B5D9D2EFA7B0922</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_055541742E2EFA7B0923</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1BD318220F2EFA7B091F">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_33EC5B5D9D2EFA7B0922">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<div>è só subir a ladeira e chegou</div>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_043485340E2EFA7B0920">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_49CED615892EFA7B091E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_35CDF0CC572EFA7B091E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_04A2404CE72EFA7B0921">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_2F444153702EFA7B091E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_35CDF0CC572EFA7B091E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_49CED615892EFA7B091E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_127B9B79F02EFA7B091E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/slide_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<bgColor>ff4f4737</bgColor>
+				<gx:displayMode>fullscreen</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0847EFC3BC2EFA7B091F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1BD318220F2EFA7B091F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_043485340E2EFA7B0920</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_5CFD4843402EFA7B0920">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_067246BBD62EFA7B091E">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/slide_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<bgColor>ff4f4737</bgColor>
+				<gx:displayMode>fullscreen</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00B00F1D762EFA7B091D">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_067246BBD62EFA7B091E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_127B9B79F02EFA7B091E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0A8630F6262EFA61CEDF">
+		<name>Chegando Em Nova Olinda pelo Porto</name>
+		<description><![CDATA[<div>Para você que não conhece a cidade e deseja fazer uma visita até a gente, criamos uma rota especial para nosso amigos ribeirinho que chegam pelo nosso porto.<br></div>]]></description>
+		<styleUrl>#__managed_style_00B00F1D762EFA7B091D</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUVROFBpdWtLeVNtVm5yeGdQV3dLNGRLZ3gvV25mVFQ2bUxRSTM4Z0NxQ3BUbXFKME9LYUVBci93Y2lUQnFTTmtLb0IyZjZraXVPdVJpekRPT2svS1o5YmQvK3dIT1d1eFdWclVFWlJNclRYRVJoVGVCaXBvdXJ6eDZ4WlA4cUY0b3AzVkFYTGU0N0x6S212MW9KbWdEaXlIVGRMd1BaQnVKbVhuTWo2a3UyNmMzZXB0d2laTXRDZXhreXR6TEJiVU5KSisvVDBIaWliajZDc1RrZzF1M1JJZi8vNVRscEhpRVV4N1BnZllrVThBL0hlTHpIRW15T2xnRWk0NkF1RkZaN0g4QUJ1Z0NTemxHWnlQdnJCM2ZadXRoMWg5NWRGY0dLUw">
+				<gx:ImageUrl>https://doc-08-7c-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/kk6tf5b7j3grr5slb6haaelf90/1708128000000/7089ic-7x-XHbayMPerhFhZ8lUkebUrA/*/4AEQ8Pitt7YD1Z--FhdvvPqbbmroQBc-Hj4K1B0qaihO69tV1zSwC6WPO4exatGPDL7elJLT1M6IGiFKyUDgH3nw4A8QM0yFH8HHIVTKwWqyN66fA28LuEY610hcOHRojbdlfxqufOtZtYaq6Wt9JzACANVbxQRxf5BOMcVLT5gxXXvLhGpcDmX2lQvTBdbHzMsMpZ9IDFfL9s2vO9v9CLAefKDLSa_M3qd7q2UfmPtl6D6lETIdWlg?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+	</Placemark>
+	<Placemark id="050E7669CA2EFA24C456">
+		<name>Chegando em Nova Olinda pelo Porto</name>
+		<description><![CDATA[<div>Imagem do Porto ao lado da Feira<br></div>]]></description>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>s35SnJOV7gI3wTOIWhG18w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09398619198124</longitude>
+			<latitude>-3.88858199382522</latitude>
+			<altitude>23.01143844263499</altitude>
+			<heading>342.7614264767967</heading>
+			<tilt>84.72470411465677</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_2F444153702EFA7B091E</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09398619198124,-3.88858199382522,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BB9EAE35B2EFA26D68E">
+		<name>Antes de Dobrar a esquerda tenha cuidado pois é uma rua sem preferência.</name>
+		<description><![CDATA[<div>Proximo ao mercadinho paiva</div>]]></description>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>aI4V9mD3GAMODezjgV9KqQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.094132363883</longitude>
+			<latitude>-3.88867762120074</latitude>
+			<altitude>22.17352485690337</altitude>
+			<heading>235.3182765366301</heading>
+			<tilt>86.79605841842229</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0847EFC3BC2EFA7B091F</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.094132363883,-3.88867762120074,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DBC45399F2EFA28DE45">
+		<name>Esquina com a Avenida principal</name>
+		<description><![CDATA[<div>Você pode ver a outra esquina para dobrar</div>]]></description>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>-lLzBFTpBhpYtlqdmT-rxQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09428808225456</longitude>
+			<latitude>-3.888793916167864</latitude>
+			<altitude>22.14245224063825</altitude>
+			<heading>161.7960216876999</heading>
+			<tilt>82.63639235669999</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0847EFC3BC2EFA7B091F</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09428808225456,-3.888793916167864,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0983894FAC2EFA2BEBE6">
+		<name>Esquina da &amp; de Setembro</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>fruyYU9f2CRpNY6jvQ1MSg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09419927546494</longitude>
+			<latitude>-3.889113726107369</latitude>
+			<altitude>23.2023811336321</altitude>
+			<heading>224.099523905407</heading>
+			<tilt>74.80023030613667</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_2BF50E0A012EFA7B0922</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09419927546494,-3.889113726107369,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0090BC59342EFA2CF45D">
+		<name>688 Av. Sete de Setembro
+Amazonas</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>aLprNMdZsJ3M2IapkmcG5g</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09430305855386</longitude>
+			<latitude>-3.889246442056901</latitude>
+			<altitude>23.92294120765398</altitude>
+			<heading>246.1160629257025</heading>
+			<tilt>86.62329614298291</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_41F290424A2EFA7B0920</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09430305855386,-3.889246442056901,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0627586DDE2EFA2D1007">
+		<name>Mais 10 passos e você chega</name>
+		<description><![CDATA[<div>Já da pra ver quase</div>]]></description>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>aLprNMdZsJ3M2IapkmcG5g</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09430305855386</longitude>
+			<latitude>-3.889246442056901</latitude>
+			<altitude>23.92294120765398</altitude>
+			<heading>246.1160629257025</heading>
+			<tilt>86.62329614298291</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0847EFC3BC2EFA7B091F</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09430305855386,-3.889246442056901,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AA3B035EC2EFA2DD32B">
+		<name>Esse prédio mais à frente</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>3UE7TmwdzAVg62UGO-H1Rg</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09448452590488</longitude>
+			<latitude>-3.889367433130968</latitude>
+			<altitude>25.29709625197485</altitude>
+			<heading>265.6338610263683</heading>
+			<tilt>87.2219590649363</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_41F290424A2EFA7B0920</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09448452590488,-3.889367433130968,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BB8447DA42EFA2ED4BB">
+		<name>Chegamos. Aqui é onde fazemos o melhor trabalho do alto madeira</name>
+		<description><![CDATA[<div>Chegamos e pode entrar, temos uma equipe pronta para atender você<br></div>]]></description>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>JI05MKb-acqlCYdTNx_ANQ</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.09455739317953</longitude>
+			<latitude>-3.889422979957423</latitude>
+			<altitude>25.47653770446777</altitude>
+			<heading>317.8462920390631</heading>
+			<tilt>81.52619981837638</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_0847EFC3BC2EFA7B091F</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.09455739317953,-3.889422979957423,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B856DCAFA2EFA7077DE">
+		<name>675 R. Triunfo
+Amazonas</name>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option name="streetview"></gx:option>
+				<gx:streetViewPanoId>s35SnJOV7gI3wTOIWhG18w</gx:streetViewPanoId>
+			</gx:ViewerOptions>
+			<longitude>-59.0939861919814</longitude>
+			<latitude>-3.88858199382544</latitude>
+			<altitude>23.01139237893458</altitude>
+			<heading>332.1703585119457</heading>
+			<tilt>84.92722906004111</tilt>
+			<roll>0</roll>
+			<gx:fovy>59.99999999999999</gx:fovy>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<styleUrl>#__managed_style_41F290424A2EFA7B0920</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-59.0939861919814,-3.88858199382544,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

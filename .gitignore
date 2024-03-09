@@ -1,0 +1,13 @@
+env/
+db.sqlite3
+.vscode/
+.idea/
+*.log
+*.tmp
+.Rhistory
+Miniconda3-latest-Linux-x86_64.sh
+get_helm.sh
+selenium-beautful.py
+minikube-linux-amd64
+jupyter_client/
+minikube-linux-amd64

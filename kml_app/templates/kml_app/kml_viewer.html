@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KML Viewer</title>
+</head>
+<body>
+    <h2>KML Viewer</h2>
+    <ul>
+    {% for placemark in placemarks %}
+        <li>{{ placemark }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

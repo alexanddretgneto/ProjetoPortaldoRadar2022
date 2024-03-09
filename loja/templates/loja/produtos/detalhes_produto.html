@@ -1,0 +1,16 @@
+{% extends '../../portaldoradar/index.html' %}
+
+{% block content %}
+    <h1>{{ produto.nome }}</h1>
+    <img src="{{ produto.imagem.url }}" class="card-img-top" alt="{{ produto.nome }}">
+    <p>Preço: R$ {{ produto.preco }}</p>
+    <p>Estoque: {{ produto.estoque }}</p>
+    <!-- Adicione mais detalhes conforme necessário -->
+
+    <!-- Adicionar um formulário para adicionar ao carrinho -->
+<form method="post" action="{% url 'adicionar_carrinho' produto.id %}">
+    {% csrf_token %}
+    <input type="submit" value="Adicionar ao Carrinho">
+</form>
+
+{% endblock %}

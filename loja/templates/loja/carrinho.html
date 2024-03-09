@@ -1,0 +1,38 @@
+{% extends '../portaldoradar/index.html' %}
+{% load static %}
+
+{% block content %}
+    <h1>Seu Carrinho</h1>
+    <div class="row">
+        {% for item in itens_carrinho %}
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="{{ item.produto.imagem.url }}" alt="{{ item.produto.nome }}" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <p>{{ item.produto.nome }}</p>
+                                <p>Preço unitário: R$ {{ item.produto.preco }}</p>
+                                <p>Quantidade: {{ item.quantidade }}</p>
+                                <form action="{% url 'adicionar_carrinho' item.produto.id %}" method="post">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="action" value="decrease">
+                                    <button type="submit" class="btn btn-sm btn-secondary">-</button>
+                                </form>
+                                <form action="{% url 'adicionar_carrinho' item.produto.id %}" method="post">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="action" value="increase">
+                                    <button type="submit" class="btn btn-sm btn-primary">+</button>
+                                </form>
+                                <p>Subtotal: R$ {{ item.subtotal }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <p>Total das compras: R$ {{ total_compras }}</p>
+{% endblock %}

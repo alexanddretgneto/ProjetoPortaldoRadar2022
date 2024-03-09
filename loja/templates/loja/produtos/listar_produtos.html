@@ -1,0 +1,29 @@
+
+{% extends '../../portaldoradar/index.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="mt-4">Listagem de Produtos</h1>
+        <div class="row">
+            {% for produto in produtos %}
+                <div class="col-md-4 mb-4">
+                    <div class="card_loja h-100 shadow-sm">
+                        <a href="{% url 'detalhes_produto' produto.id %}">
+                            <img src="{{ produto.imagem.url }}" class="card-img-top" alt="{{ produto.nome }}">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title">{{ produto.nome }}</h2>
+                            <p class="card-text">Preço: R$ {{ produto.preco }}</p>
+                            <p class="card-text">Estoque: {{ produto.estoque }}</p>
+                           
+                            <form method="post" action="{% url 'adicionar_carrinho' produto.id %}">
+                                {% csrf_token %}
+                                <input type="submit" value="Adicionar ao Carrinho" class="btn btn-primary btn-full-width_loja">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

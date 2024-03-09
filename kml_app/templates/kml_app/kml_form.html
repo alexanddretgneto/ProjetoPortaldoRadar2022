@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload KML File</title>
+</head>
+<body>
+    <h2>Upload a KML File</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="kml_file">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

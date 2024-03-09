@@ -1,0 +1,57 @@
+{% extends '../portaldoradar/index.html' %} <!-- Estende o template base 'index.html' localizado na pasta 'portaldoradar' -->
+
+{% block content %} <!-- Define o bloco de conteúdo específico desta página -->
+<div class="container">
+    <h1 class="mt-4 mb-4 text-center" style="color: #ff0000;">YouTube Videos</h1>
+
+    <div class="row">
+        {% for videos_row in videos_grouped %} <!-- Loop através das linhas de vídeos agrupados -->
+            {% for video in videos_row %} <!-- Loop através de cada vídeo na linha atual -->
+                <div class="col-md-4 mb-4">
+                    <div class="card card-equal-height_youtube">
+                        <div class="card-body">
+                            <h5 class="card-title_youtube">{{ video.snippet.title }}</h5> <!-- Título do vídeo -->
+                            <img src="{{ video.snippet.thumbnails.medium.url }}" class="card-img-top_youtube" alt="{{ video.snippet.title }}"> <!-- Imagem em miniatura do vídeo -->
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="{{ video.id.videoId }}/?title={{ video.snippet.title }}" class="btn btn-youtube_youtube btn-assistir_youtube">Assistir</a> <!-- Botão para assistir o vídeo -->
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+    <!-- Navegação entre páginas de vídeos -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if prev_page_token %}
+                <!-- Botão para a página anterior -->
+                <li class="page-item">
+                    <a class="page-link bg-primary text-white mr-2" href="?page_token={{ prev_page_token }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+            {% endif %}
+            {% for page_num in num_pages %}
+                {% if page_num == prev_page_token or page_num == next_page_token %}
+                    <!-- Página atual ou próxima página -->
+                    <li class="page-item disabled"><span class="page-link">{{ page_num }}</span></li>
+                {% else %}
+                    <!-- Página disponível para navegação -->
+                    <li class="page-item"><a class="page-link" href="?page_token={{ page_num }}">{{ page_num }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% if next_page_token %}
+                <!-- Botão para a próxima página -->
+                <li class="page-item">
+                    <a class="page-link bg-primary text-white ml-2" href="?page_token={{ next_page_token }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+{% endblock %} <!-- Fim do bloco de conteúdo -->
