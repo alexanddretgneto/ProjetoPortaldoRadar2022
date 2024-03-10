@@ -11,3 +11,6 @@ selenium-beautful.py
 minikube-linux-amd64
 jupyter_client/
 minikube-linux-amd64
+Dockerfile
+.ipynb_checkpoints
+templates
