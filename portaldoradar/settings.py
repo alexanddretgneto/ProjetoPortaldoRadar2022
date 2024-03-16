@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i0@%i3kq*1nc%8@al6pw3w_x#u_q*f#p%$onm0@ka^$gk-14p8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.portaldoradar.com.br']
 
 
 # Application definition
@@ -41,10 +41,7 @@ INSTALLED_APPS = [
     'videos_youtube',
     'noticias',
     'loja',
-    'kml_app',
-    'meu_app',
-    'text_to_speech_app',
-    
+
 ]
 
 MIDDLEWARE = [
@@ -63,7 +60,12 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # 'DIRS': [BASE_DIR / 'templates'],  # Adicione esta linha
-        'DIRS': [os.path.join(BASE_DIR, 'portaldoradar', 'templates')], 'APP_DIRS': True,
+        'DIRS': [os.path.join(BASE_DIR, 'portaldoradar', 'templates'),
+                 os.path.join(BASE_DIR, 'noticias', 'templates'),
+                 os.path.join(BASE_DIR, 'loja', 'templates'),
+
+
+        ], 'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -127,12 +129,11 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'portaldoradar', 'static'),
+    os.path.join(BASE_DIR, 'portaldoradar', 'static')
 ]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'imagens'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
