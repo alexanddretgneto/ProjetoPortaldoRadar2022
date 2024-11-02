@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-i0@%i3kq*1nc%8@al6pw3w_x#u_q*f#p%$onm0@ka^$gk-14p8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.portaldoradar.com.br']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'portaldoradar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        # 'DIRS': [BASE_DIR / 'templates'],  # Adicione esta linha
+        'DIRS': [BASE_DIR / 'templates'],  # Adicione esta linha
         'DIRS': [os.path.join(BASE_DIR, 'portaldoradar', 'templates'),
                  os.path.join(BASE_DIR, 'noticias', 'templates'),
                  os.path.join(BASE_DIR, 'loja', 'templates'),

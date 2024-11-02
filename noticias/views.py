@@ -1,10 +1,11 @@
-from django.http import HttpResponse
+
 from django.shortcuts import render
 from django.views.decorators.cache import cache_page
-
-import requests
 from bs4 import BeautifulSoup
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.http import HttpResponse
+from urllib.parse import urlparse
+import requests
+
 
 
 @cache_page(60 * 15)  # Cache por 15 minutos
@@ -41,11 +42,7 @@ def noticias(request):
     return render(request, 'noticias/noticias.html', {'headlines': headlines})
 
 
-import requests
-from bs4 import BeautifulSoup
-from django.http import HttpResponse
-from django.shortcuts import render
-from urllib.parse import urlparse
+
 
 def detalhes_noticia(request, url):
     # Corrigir a formatação da URL se necessário

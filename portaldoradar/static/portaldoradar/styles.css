@@ -26,7 +26,8 @@ body {
 }
 
 .footer {
-    
+    text-align: center;
+    padding: 10px;
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: flex-end; /* Alinha o conteúdo na parte inferior */
